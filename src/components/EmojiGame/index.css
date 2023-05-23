@@ -1,0 +1,18 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.emojis-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+.list-container {
+  display: flex;
+   flex-wrap: wrap;
+  width:50vw;
+  list-style-type: none;
+}

@@ -1,0 +1,36 @@
+/* Write your code here. */
+.winorloose-container {
+  width: 50%;
+}
+.play-again-btn {
+  height: 40px;
+  width: 80px;
+  background-color: #ffce27;
+  border-style: none;
+  border-radius: 15px;
+  font-weight: 400;
+}
+.win-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.score-text {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.win-heading {
+  font-size: 39px;
+  color: white;
+}
+.win-text {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* .winorlose-Img {
+    
+} */
