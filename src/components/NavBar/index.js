@@ -13,8 +13,8 @@ const NavBar = props => {
         <h1 className="img-text">Emoji Game</h1>
       </div>
       <div className="score-container">
-        <p className="score-text">Score: {score}</p>
-        <p className="score-text">Top Score: {topScore}</p>
+        <p className="para-text">Score: {score}</p>
+        <p className="para-text">Top Score: {topScore}</p>
       </div>
     </nav>
   )
