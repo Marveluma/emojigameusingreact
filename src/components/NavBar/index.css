@@ -3,6 +3,8 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  background-color: #ffffff52;
+                    
 }
 .nav-img-container {
   margin-left: 80px;
