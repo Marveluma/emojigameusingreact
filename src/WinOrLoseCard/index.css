@@ -1,6 +1,9 @@
 /* Write your code here. */
 .winorloose-container {
   width: 50%;
+  background-color: #ffffff33;
+  padding: 30px;
+  border-radius: 10px;
 }
 .play-again-btn {
   height: 40px;
@@ -10,9 +13,15 @@
   border-radius: 15px;
   font-weight: 400;
 }
-.win-container {
+/* .win-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+} */
+.text-section {
+  display: flex;
+  justify-content: center;
   align-items: center;
   font-family: 'Roboto';
 }

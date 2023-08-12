@@ -12,7 +12,7 @@ const WinOrLoseCard = props => {
     <div className="winorloose-container">
       {isWin ? (
         <div className="win-container">
-          <div className="">
+          <div className="text-section">
             <h1 className="win-heading">You Won</h1>
             <p className="win-text">Best Score</p>
             <p className="score">12/12</p>
@@ -32,7 +32,7 @@ const WinOrLoseCard = props => {
         </div>
       ) : (
         <div className="win-container">
-          <div className="win-text">
+          <div className="text-section">
             <h1 className="win-heading">You Lose</h1>
             <p className="win-text">Score</p>
             <p className="score">{score}/12</p>
